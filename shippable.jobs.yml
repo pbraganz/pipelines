@@ -46,7 +46,7 @@ jobs:
   - name: braganza-ecs-deploy-prod-front-end
     type: deploy
     steps:
-      - IN: ecs-deploy-test-front-end
+      - IN: braganza-ecs-deploy-test-front-end
         switch: off
       # - IN: release-front-end
       #   switch: off
